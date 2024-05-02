@@ -1,4 +1,5 @@
 import Banner from '@/components/banner/Banner'
+import Gallery from '@/components/gallery/Gallery'
 import Header from '@/components/header/Header'
 import Main from '@/components/main/Main'
 import React from 'react'
@@ -10,6 +11,7 @@ export default function Home() {
 			<Banner />
 			<Section />
 			<Main />
+			<Gallery />
 		</React.Fragment>
 	)
 }
