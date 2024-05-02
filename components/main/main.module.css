@@ -1,0 +1,16 @@
+.bgImage {
+	background-image: url('/main.svg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 60vh;
+	width: 45%;
+}
+.topImage {
+	background-image: url('/main2.svg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 90vh;
+	width: 20%;
+}
