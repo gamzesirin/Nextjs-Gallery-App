@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Footer = () => {
 	return (
 		<div>
-			<footer className={`${styles.footer} bg-gray-900 text-white text-center py-6`}>
-				<h3 className={`${styles.title} text-2xl font-bold`}>BG Art Gallery</h3>
+			<footer className={' bg-gray-900 text-white text-center py-6'}>
+				<h3 className={'text-2xl font-bold'}>BG Art Gallery</h3>
 				<div className="flex gap-10 items-center justify-center ">
 					<ul className="text-start">
 						<li>
@@ -65,9 +65,7 @@ const Footer = () => {
 						</li>
 					</ul>
 				</div>
-				<p className={`${styles.copyright} mt-4`}>
-					&copy; {new Date().getFullYear()} BG Art Gallery. All rights reserved.
-				</p>
+				<p className={'mt-4'}>&copy; {new Date().getFullYear()} BG Art Gallery. All rights reserved.</p>
 			</footer>
 		</div>
 	)
